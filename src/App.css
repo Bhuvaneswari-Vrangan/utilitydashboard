@@ -1,0 +1,76 @@
+.dashboard {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f4f6f9;
+  min-height: 100vh;
+}
+
+.dashboard h1 {
+  color: #1e3a8a;
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.value {
+  font-size: 48px;
+  margin: 15px 0;
+  color: #111;
+}
+
+.value.random {
+  color: #0d9488;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.placeholder {
+  color: #6b7280;
+  font-style: italic;
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  flex: 1;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.inc { background: #22c55e; }
+.dec { background: #f59e0b; }
+.reset { background: #ef4444; }
+.generate { background: #3b82f6; width: 100%; margin-top: 10px; }
