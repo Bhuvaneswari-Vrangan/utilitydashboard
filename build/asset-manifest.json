@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/utilitydashboard/static/css/main.59c0598f.css",
+    "main.js": "/utilitydashboard/static/js/main.30adaf1c.js",
+    "index.html": "/utilitydashboard/index.html",
+    "main.59c0598f.css.map": "/utilitydashboard/static/css/main.59c0598f.css.map",
+    "main.30adaf1c.js.map": "/utilitydashboard/static/js/main.30adaf1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59c0598f.css",
+    "static/js/main.30adaf1c.js"
+  ]
+}
